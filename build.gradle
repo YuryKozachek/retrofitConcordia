@@ -5,6 +5,11 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+// не забывать utf-8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 repositories {
     mavenCentral()
 }
@@ -14,8 +19,10 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     testImplementation 'com.squareup.retrofit2:retrofit:2.9.0'
     testImplementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-
+    implementation 'org.postgresql:postgresql:42.7.2'
 }
+
+
 
 test {
     useJUnitPlatform()

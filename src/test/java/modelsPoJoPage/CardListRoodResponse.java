@@ -1,4 +1,4 @@
-package modelsClassPage;
+package modelsPoJoPage;
 
 import java.util.ArrayList;
 

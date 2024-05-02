@@ -1,4 +1,4 @@
-package modelsClassPage;
+package modelsPoJoPage;
 
 public class CardListResponse {
     private String cardId;

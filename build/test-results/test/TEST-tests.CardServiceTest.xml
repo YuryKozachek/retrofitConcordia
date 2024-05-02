@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.CardServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-29T19:35:30" hostname="KOZACHEKYURY" time="0.315">
+<testsuite name="tests.CardServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-02T16:14:40" hostname="KOZACHEKYURY" time="0.121">
   <properties/>
-  <testcase name="getCardsListUser()" classname="tests.CardServiceTest" time="0.315"/>
+  <testcase name="getCardsListUser()" classname="tests.CardServiceTest" time="0.121"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
